@@ -1,4 +1,13 @@
+@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+      url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+ font-weight: 500;
+ font-style: normal;
+}
 .fontlist{
 	list-style: none;
-123
+}
+h2{
+	font-family: "Open Sans", Arial, Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
 }
