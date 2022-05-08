@@ -1,0 +1,16 @@
+.product-item__title{
+	width: 50%;
+	/*height: 200px;*/
+	box-sizing: border-box;
+	/*margin: 10px 0 15px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 15px;
+	border: 1px solid black;
+}
+
+.product-item__des{
+	border: 1px solid indianred;
+	margin-top: 0px;
+
+}
