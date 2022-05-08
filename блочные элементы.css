@@ -1,3 +1,36 @@
+body{
+	background-image: url('pattern.png');
+	/*background-repeat: no-repeat repeat;
+	background-position: center;*/
+	margin: 0;
+}
+
+.product-item{
+	background-color: rgba(123, 104, 238, 1.1);
+	color: wheat;
+	padding: 10px 15px;
+	margin: 50px 0;
+	/*border-radius: 53px 1px;
+	outline: 1px solid greenyellow;
+	box-shadow: black 0 0 20px 10px;*/
+	height: 100vh;
+}
+
+.product-item:first-child{
+	background: url('70665747.jpg') no-repeat, url('70665747.jpg') no-repeat;
+	background-position: top center , bottom center;
+	background-color: red;
+	background-size: 500px 200px;
+}
+
+.product-item:nth-child(2){
+    background: url('70665747.jpg') no-repeat;
+    background-size: cover;
+    background-color: darkred;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
 .product-item__title{
 	width: 50%;
 	/*height: 200px;*/
@@ -12,5 +45,4 @@
 .product-item__des{
 	border: 1px solid indianred;
 	margin-top: 0px;
-
 }

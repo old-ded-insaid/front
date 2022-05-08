@@ -1,0 +1,18 @@
+h6{
+  text-transform: uppercase;
+        color: darkgrey;
+}
+h1{
+  style="text-align: center";
+    color: royalblue;
+}
+.cvet{
+  color: burlywood;
+}
+.heading{
+  border: 1px solid black;
+}
+div table{
+  text-align: center;
+  font-style: italic;
+}
