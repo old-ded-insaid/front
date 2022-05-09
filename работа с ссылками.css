@@ -1,0 +1,36 @@
+.ger{
+	text-transform: none;
+	text-decoration: none;
+	color: darkkhaki;
+}
+
+.ger:hover{
+	border-bottom: 1px solid;
+}
+
+.ger:visited{
+	color: darkgreen;
+}
+
+.ger:active{
+	color: gainsboro;
+}
+
+.kn{
+	display: inline-block;
+	color: white;
+	background-color: burlywood;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-size: 10px;
+	border: 1px solid burlywood;
+	border-radius: 15px;
+	font-family: 'Counter New', 'Counter';
+	outline: none;
+
+}
+
+.kn:hover{
+	background-color: white;
+	color: skyblue;
+}
