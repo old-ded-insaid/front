@@ -1,0 +1,92 @@
+a{
+	display: inline-block;
+	margin-right: 10px;
+	color: lightblue;
+}
+
+a:not(.mmo){
+    color: darkred;
+}
+
+a::before{
+  content: "@";
+  margin-right:20px ;
+}
+
+a::after{
+  content: "\2706";
+  margin-left:20px ;
+}
+
+a::selection{
+	background-color: greenyellow;
+	color: burlywood;
+}
+
+/*a:not([href="https://www.google.ru/search?q=google&oq=goo&sourceid=chrome&ie=UTF-8"]){
+    color: darkred;
+}
+*/
+
+/*a:not([target]){
+    color: darkred;
+}*/
+
+.prod{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.prod_i, p{
+	width: 280px;
+	height: 200px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: cornflowerblue;
+}
+.prod_i:first-child{
+	background-color: darkred;
+}
+
+.prod_i:last-child{
+	background-color: darkgrey;
+}
+/*
+.prod_i:first-of-type{
+	background-color: darkred;
+}
+
+.prod_i:last-of-type{
+	background-color: darkgrey;
+}
+*/
+/*
+.prod_i:nth-child(odd){ /*odd нечетные элементы закрасятся
+, even четные элементы закрасятся
+	background-color: fuchsia;
+}
+*/
+
+.prod_i:nth-child(-n+3){ 
+	background-color: fuchsia;
+	margin-top: 0;
+}
+
+.prod_i:nth-child(3n){ 
+	background-color: fuchsia;
+	margin-right: 0;
+}
+
+.prod:hover .prod_i{
+	background-color: azure;
+}
+input{
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+
+input:focus{
+	border-bottom: 1px solid red;
+}
