@@ -1,0 +1,31 @@
+.he{
+
+}
+
+.nevbar{
+	background-color: darkblue;
+	height: 40px;
+
+}
+.tfoot > tr{
+	height: 100px;
+}
+
+.content{
+	width: 70%;
+	height: calc(100vh - 240px);
+	padding: 20px 15px;
+}
+.width{
+	background-color: darkgoldenrod;
+	padding: 20px 15px;
+}
+
+.vmen{
+	background-color: blue;
+	height: 200px;
+}
+
+.rowspan{
+
+}
