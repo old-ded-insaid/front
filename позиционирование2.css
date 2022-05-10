@@ -1,0 +1,28 @@
+.root{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	background: blueviolet;
+	padding: 10px 15px;
+}
+.root:hover{
+	display: black;
+}
+
+.dr{
+	/*display: none;*/
+	position: absolute;
+	top: 35px;
+	left: 0;
+	background: peru;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.dr>li{
+	cursor: pointer;
+	list-style: none;
+}
+.dr>li:hover{
+	color: purple;
+}
