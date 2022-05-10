@@ -1,0 +1,15 @@
+.flexbox{
+	display: flex;
+	/*display: inline-flex;*/
+	/*flex-direction: column-reverse;*/
+	/*flex-direction: column;*/
+	flex-direction: row;
+	/*flex-direction: row-reverse;*/
+	justify-content: center;
+	background-color: darkgoldenrod;
+}
+.flexbox > div{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: darkred;
+}
