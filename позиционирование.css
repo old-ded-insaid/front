@@ -1,0 +1,52 @@
+/*прочитать про абсолютное позиционирование*/
+#par{
+	position: relative;
+	top: 0px;
+	width: 300px;
+	height: 200px;
+	background: pink;
+}
+.black {
+    background-color:black;
+    color:blueviolet;
+    line-height:100%;
+}
+#child{
+	width: 100px;
+	height: 100px;
+	background: orange;
+	position: absolute;
+	top: 35px;
+	left: 300px;
+}
+ 
+#par:after{
+	content: "";
+	position: absolute;
+	top: calc(50%-20px);
+	right: 40;
+	left: 0;
+	width: 0;
+	height: 0;
+	border: 20px solid;
+	border-color: transparent transparent transparent black;
+}
+
+#fi{
+	width: 100px;
+	height: 100px;
+	background: purple;
+	position: fixed;
+	right: 100px;
+	top 50px
+	bottom: 10px;
+}
+
+#st{
+	width: 100px;
+	height: 100px;
+	background: orange;
+	position: sticky;
+	top: 0px;
+	margin: 0 auto;
+}
