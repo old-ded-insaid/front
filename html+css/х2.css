@@ -1,0 +1,28 @@
+div{
+	font-family:Arial, sans-serif;
+}
+
+.fotka{
+		float: right;
+		margin: 7px 0 7px 7px;
+		text-align: left;
+		font-style: italic;
+}
+
+h1{
+	font-size: 32px;
+}
+
+th, td, .ta {
+   border: 1px solid grey;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
