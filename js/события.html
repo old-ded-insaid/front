@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ветвления и циклы</title>
+    <meta name="discription" content="">
+  </head>
+  <body>
+      1
+      <div onclick="alert('kykyryz')"> 
+        kykyryz
+      </div>
+      <div onclick="alert_msg()"> 
+        kykyryz
+      </div>
+      <div id="q">
+          sd
+      </div>
+      <h1>
+          2
+      </h1>
+      <h2 onclick="check_tar(event)">
+            grgrgrg
+      </h2>
+      <script>
+         /* const b = document.getElementById('q');
+          //b.onclick = alert_msg;
+          //b.addEventListener('click', alert_msg);
+          //b.removeEventListener('click', alert_msg);
+          b.addEventListener('click', function() {
+              console.log('lisner');
+          });
+
+
+          function alert_msg(){
+              alert('asd')
+          }*/
+            /*
+          var he = document.getElementById('h1');
+          he.onclick = function () {
+              console.log(this);
+              this.classList.toggle('active');
+              //ято то еще нужно добавить
+          }*/
+          function check_tar(event) {
+              console.log(event.target);
+              console.log(event);
+              console.log(event.current_target);
+              console.log(this.innerHTML);
+          }
+      </script>
+    <script src="события.js"></script>
+  </body>
+</html>

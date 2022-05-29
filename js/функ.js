@@ -18,7 +18,7 @@ sum(1, 2);
 sum2(1, 2);
 sum3(1, 2);
 sum4(1, 2);*/
-
+/*
 const a = prompt('let');
 
 function is_let(age) {
@@ -28,7 +28,11 @@ function is_let(age) {
     } else
         return false;
         console.log(false);
-}
+}*/
 
-const mes = is_let(age) ? 'w' : 'r';
-alert(mes);
+/*const mes = is_let(age) {
+    if(mes = true) {
+        return 'w';
+    } 
+}*//*
+alert(mes);*/
